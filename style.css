@@ -1,0 +1,71 @@
+html {
+    font-family: Arial;
+    width: 100vw;
+    height: 100vh;
+    background-color: #333a4c;
+    background-image: url("images/lowpolyroom.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#nom {
+    position: fixed;
+    text-align: center;
+    left: 50vw;
+    top: 50vh;
+    font-size: min(7vw, 7vh);
+    transform: translateX(-4em) translateY(-4.5em) skewY(-26.666666deg);
+    border-radius: min(1vw, 1vh);
+    text-shadow: 0px 0px min(0.5vw, 0.5vh) #0008;
+}
+
+#nom p {
+    margin: 0;
+    padding: 0;
+}
+
+#nom:hover {
+    background-color: #0004;
+    box-shadow: 0px 0px min(1vw, 1vh) min(1vw, 1vh) #0004;
+    cursor: pointer;
+}
+
+#bio {
+    display: none;
+    position: fixed;
+    top: 50vh;
+    left: 50vw;
+    transform: translateX(-50%) translateY(-10%);
+    border-radius: min(1vw, 1vh);
+    width: 50vw;
+    background-color: #0004;
+    box-shadow: 0px 0px min(1vw, 1vh) min(1vw, 1vh) #0004;
+}
+
+#bio img {
+    width: 10vw;
+    height: auto;
+    float: right;
+    border-radius: min(1vw, 1vh);
+}
+
+#bio #titre {
+    font-size: min(4vw, 4vh);
+    margin: 0;
+}
+
+#bio #desc {
+    font-size: min(2vw, 2vh);
+    margin-bottom: 0px;
+}
