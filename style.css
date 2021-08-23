@@ -69,3 +69,41 @@ html {
     font-size: min(2vw, 2vh);
     margin-bottom: 0px;
 }
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff !important;
+}
+
+#boutonCV {
+    color: #f88;
+    position: fixed;
+    text-align: center;
+    left: 50vw;
+    top: 50vh;
+    font-size: min(3vw, 3vh);
+    transform: translateX(7.5em) translateY(-2em) skewY(26.666666deg);
+}
+
+#boutonProjets {
+    color: #0ff;
+    position: fixed;
+    text-align: center;
+    left: 50vw;
+    top: 50vh;
+    font-size: min(2vw, 2vh);
+    transform: translateX(-16.6666em) translateY(-2.1em) skewY(-31deg) skewX(7deg);
+}
+
+#boutonContact {
+    color: #664d7f;
+    position: fixed;
+    text-align: center;
+    left: 50vw;
+    top: 50vh;
+    font-size: min(4vw, 4vh);
+    transform: translateX(-4.75em) translateY(-0.75em) skewY(-26.666666deg) skewX(44.444444deg);
+}
