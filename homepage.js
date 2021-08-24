@@ -5,5 +5,5 @@ window.onload = function() {
             bioStyle.display = "none";
         else
             bioStyle.display = "block";
-    }
+    };
 };
